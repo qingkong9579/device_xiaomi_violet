@@ -9,7 +9,7 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common TenX stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
